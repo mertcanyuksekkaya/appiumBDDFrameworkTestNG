@@ -1,0 +1,15 @@
+pages\BasePage$2.class
+pages\BasePage.class
+pages\ProductsPage.class
+pages\ProductDetailsPage.class
+runners\RunnerBase.class
+pages\BasePage$1.class
+pages\LoginPage.class
+pages\SettingsPage.class
+runners\MyGM5PlusTestNGRunnerTest.class
+stepDefinitions\Hooks.class
+stepDefinitions\LoginStepDefinitions.class
+pages\MenuPage.class
+stepDefinitions\ProductStepDefinitions.class
+runners\MyPixel2TestNGRunnerTest.class
+runners\MyPixel4TestNGRunnerTest.class

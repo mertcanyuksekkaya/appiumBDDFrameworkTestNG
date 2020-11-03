@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="42928" started-at="2020-11-03T15:32:35 EET" finished-at="2020-11-03T15:33:18 EET">
+    <groups>
+      <group name="cucumber">
+        <method signature="RunnerBase.scenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.MyGM5PlusTestNGRunnerTest@6ddf90b0]" name="scenario" class="runners.RunnerBase"/>
+        <method signature="RunnerBase.scenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.MyPixel2TestNGRunnerTest@1dfe2924]" name="scenario" class="runners.RunnerBase"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Pixel 2" duration-ms="36392" started-at="2020-11-03T15:32:35 EET" finished-at="2020-11-03T15:33:12 EET">
+      <class name="runners.MyPixel2TestNGRunnerTest">
+        <test-method status="PASS" signature="setUpClass(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:runners.MyPixel2TestNGRunnerTest@1dfe2924]" name="setUpClass" is-config="true" duration-ms="11248" started-at="2020-11-03T15:32:35 EET" finished-at="2020-11-03T15:32:46 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[emulator-5556]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Pixel2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10001]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[11001]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[iOS]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[iOS]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="scenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.MyPixel2TestNGRunnerTest@1dfe2924]" name="scenario" duration-ms="7124" started-at="2020-11-03T15:32:46 EET" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-11-03T15:32:54 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login with invalid user name"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login scenarios"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scenario -->
+        <test-method status="PASS" signature="scenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.MyPixel2TestNGRunnerTest@1dfe2924]" name="scenario" duration-ms="5255" started-at="2020-11-03T15:32:54 EET" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-11-03T15:32:59 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login with invalid password"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login scenarios"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scenario -->
+        <test-method status="PASS" signature="scenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.MyPixel2TestNGRunnerTest@1dfe2924]" name="scenario" duration-ms="9306" started-at="2020-11-03T15:32:59 EET" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-11-03T15:33:08 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login with valid user name and password"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login scenarios"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runners.MyPixel2TestNGRunnerTest@1dfe2924]" name="tearDownClass" is-config="true" duration-ms="3412" started-at="2020-11-03T15:33:08 EET" finished-at="2020-11-03T15:33:12 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runners.MyPixel2TestNGRunnerTest -->
+    </test> <!-- Pixel 2 -->
+    <test name="GM 5 PLUS" duration-ms="42928" started-at="2020-11-03T15:32:35 EET" finished-at="2020-11-03T15:33:18 EET">
+      <class name="runners.MyGM5PlusTestNGRunnerTest">
+        <test-method status="PASS" signature="setUpClass(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:runners.MyGM5PlusTestNGRunnerTest@6ddf90b0]" name="setUpClass" is-config="true" duration-ms="15436" started-at="2020-11-03T15:32:35 EET" finished-at="2020-11-03T15:32:51 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[db42c81f]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[GM_5_PLUS]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10000]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[11000]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[iOS]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[iOS]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="scenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.MyGM5PlusTestNGRunnerTest@6ddf90b0]" name="scenario" duration-ms="9754" started-at="2020-11-03T15:32:51 EET" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-11-03T15:33:00 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login with invalid user name"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login scenarios"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scenario -->
+        <test-method status="PASS" signature="scenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.MyGM5PlusTestNGRunnerTest@6ddf90b0]" name="scenario" duration-ms="7783" started-at="2020-11-03T15:33:00 EET" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-11-03T15:33:08 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login with invalid password"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login scenarios"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scenario -->
+        <test-method status="PASS" signature="scenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.MyGM5PlusTestNGRunnerTest@6ddf90b0]" name="scenario" duration-ms="9008" started-at="2020-11-03T15:33:08 EET" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-11-03T15:33:17 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login with valid user name and password"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login scenarios"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runners.MyGM5PlusTestNGRunnerTest@6ddf90b0]" name="tearDownClass" is-config="true" duration-ms="922" started-at="2020-11-03T15:33:17 EET" finished-at="2020-11-03T15:33:18 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runners.MyGM5PlusTestNGRunnerTest -->
+    </test> <!-- GM 5 PLUS -->
+  </suite> <!-- Suite -->
+</testng-results>

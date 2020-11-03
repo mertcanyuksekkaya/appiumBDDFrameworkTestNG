@@ -1,0 +1,7 @@
+utils\CapabilitiesManager.class
+utils\GlobalParams.class
+utils\TestUtils.class
+utils\VideoManager.class
+utils\PropertyManager.class
+utils\ServerManager.class
+utils\DriverManager.class
